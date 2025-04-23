@@ -1,0 +1,18 @@
+.
+├── README.md
+├── data
+├── house-price-predictor.code-workspace
+├── main.py
+├── models
+├── notebooks
+├── reports
+├── requirements.txt
+├── src
+│   ├── data_loader.py
+│   ├── model.py
+│   ├── predict.py
+│   ├── train.py
+│   └── utils.py
+└── structure.txt
+
+6 directories, 10 files
