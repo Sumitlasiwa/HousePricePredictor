@@ -8,14 +8,12 @@ A machine learning project to predict house prices based on various features usi
  ├── .venv/ # Virtual environment 
  ├── data/ # Raw and processed data 
  ├── models/ # Saved trained models 
- ├── notebooks/ # Jupyter notebooks for exploration 
- ├── reports/ # Evaluation reports, plots, metrics 
+ ├── notebooks/ # Jupyter notebooks for exploration  
  ├── src/ # Source code 
- │ ├── data_loader.py # Data loading and preprocessing 
- │ ├── model.py # Model building 
- │ ├── predict.py # Prediction logic 
- │ ├── train.py # Training pipeline 
- │ └── utils.py # Utility functions 
+ │ ├── data_loader.py # Data loading  
+ │ ├── model_trainer.py # Model building,training and evaluating models
+ │ ├── feature-engineering.py # clean and transform data
+ │ └── config.py # file paths, hyperparameters 
  ├── .gitignore # Files and folders to ignore in Git 
  ├── house-price-predictor.code-workspace # VSCode workspace settings 
  ├── main.py # Main script to run the project 
@@ -45,7 +43,7 @@ Python 3.8+
 pandas, scikit-learn, matplotlib, seaborn, etc.
 
 ## Dataset
-The dataset used for this project contains various features such as the number of bedrooms, square footage, main road accessiblity, and other relevant metrics that influence house prices. It is available in CSV format in the `data/` directory.
+The dataset used for this project contains various features such as the number of bedrooms, area, main road accessiblity, and other relevant metrics that influence house prices. It is available in CSV format in the `data/` directory.
 
 ## License
 This project is open source and available under the MIT License.
