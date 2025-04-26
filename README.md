@@ -21,7 +21,7 @@ A machine learning project to predict house prices based on various features usi
  └── requirements.txt # Python dependencies
 
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Clone the repo**
    ```bash
